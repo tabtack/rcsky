@@ -1,0 +1,117 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// “ú–{Œê resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+APPMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Option"
+    BEGIN
+        MENUITEM "E&xit\tESC",                  MENU_EXIT
+        MENUITEM SEPARATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+APPACCEL ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            MENU_ANTIALIAS,         VIRTKEY, CONTROL, NOINVERT
+    "D",            MENU_DITHERING,         VIRTKEY, CONTROL, NOINVERT
+    "L",            MENU_LINEAR_FILTER,     VIRTKEY, CONTROL, NOINVERT
+    "O",            MENU_POINT_FILTER,      VIRTKEY, CONTROL, NOINVERT
+    "P",            MENU_POINT,             VIRTKEY, CONTROL, NOINVERT
+    "S",            MENU_SOLID,             VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      MENU_EXIT,              VIRTKEY, NOINVERT
+    VK_F2,          MENU_FLAT,              VIRTKEY, NOINVERT
+    VK_F3,          MENU_GOURAUD,           VIRTKEY, NOINVERT
+    VK_F4,          MENU_PHONG,             VIRTKEY, NOINVERT
+    VK_F5,          MENU_LIGHTING,          VIRTKEY, NOINVERT
+    VK_RETURN,      MENU_GO,                VIRTKEY, NOINVERT
+    VK_SPACE,       MENU_STEP,              VIRTKEY, NOINVERT
+    "W",            MENU_WIREFRAME,         VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+APPICON                 ICON    DISCARDABLE     "rcsimu.ico"
+#endif    // “ú–{Œê resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
